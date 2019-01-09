@@ -1,0 +1,63 @@
+ Json is a light weigth programming.
+It is machine understandble
+
+
+
+After JQuery 
+Angular 1.0 first version.
+Angular 1.5 or 1.x next version.
+
+
+Angular 2.0 -Component based architecture.......
+Components are heart of 2.0
+The architecture in Angular is totally different from other version.
+2.0 cannot be called as Angular JS
+Angular 2 is based on TYPE SCRPIT.
+
+
+
+
+
+Angular JS is a M* architecture
+
+current version is 7
+
+
+TYPE SCRIPT is a super set of JAVA SCRPIT
+transcompiler or transpiler both are same.--
+extension for TS is .ts
+you can create class,extends,mixins,interfaces,enum,some lambda exp.
+browser contains V8 complier for Java Script compilation.
+browser cannot understand .ts so we use transpiler or compiler, Such as babel,traceur,typescript.
+typescript transcompiler is TAC.
+
+TAC is created by TYPE Scrpit.
+
+
+Power shell in Visual Studio is a cmd.
+
+___npm install -g typescrpit
+
+->npm -node package manger.
+->which helps in download of library files to work.
+
+->-g :global installation
+
+-> node_module
+
+
+
+
+
+
+Trans piler converts the ts code to js.
+
+
+
+var is used when the variable is needed to use all through the code.
+
+let is block scoped variable.
+
+
+
+if the data type is nulll dont skip the value of it.

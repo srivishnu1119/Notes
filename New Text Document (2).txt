@@ -1,0 +1,120 @@
+Byte code Verifier: The byte code verifier ensures the following:
+? the Java programs have been compiled correctly,
+? they will obey the virtual machine’s access restrictions, and
+? the byte codes will not access private data when they should not
+
+
+
+public static void main(String[] args) {…} other way to write main.
+
+
+strictfp is a keyword,,,,,
+
+true and false are called as values....under boolean.
+
+null is a keyword not a value.
+
+
+Default values of all primitive types.
+
+boolean-false
+char-'\u0000'
+object reference is null.
+
+== and equals.
+
+==-primitive type it checks values.
+
+
+teranry operation can be stored in any primitive data type.
+boolean s=10<5?true:false;		
+System.out.println(s);
+
+
+when u created a variable inside a method 
+
+when a object is in heap it is eligible for gc.
+if it is in stack eligible not eligible for gc---as these are created in side the method and as soon as method excueted they will be removed.
+
+this refers to global var.
+
+
+question from loops and case statement;
+
+dowhile statement one question.
+
+
+default can be also called as package variable.
+
+
+The sub class and packages under the package hirerachy.
+
+java 8 has introduced localdate in java.time package.
+gergorian calender....
+
+
+
+**enum one question.
+constructors can be created in enum.
+default variables can be created.
+
+static import is used when class is having only static varibles and methods.
+
+
+default constructor is created by compiler.
+if we create empty cons it is called as no arg cons
+
+
+
+javap- in cmd is used to restructure of the byte code into words.
+
+
+static initalizer is used to change value of static variable.
+
+
+static can be accessed by class name and object.
+
+
+System.gc() is a request to jvm to gc it may or may not be done.
+It is only done when the jvm is free. Which values are assigned as null are eligible for gc.
+even jvm is controlled by cpu.
+It works on marks and sweep algorithm.
+
+
+finalize()-It will be automatically called when System.gc() is called. It invokes before gc gets started.
+finally and finalize() all almost same.
+
+
+object class has three imp methods.
+-toString();
+-hashCode();
+-equals();
+
+
+extends==extendsearch!!
+
+
+!--Study String class more--!
+
+
+
+if a method is declared in interface it is abstract as default.
+
+why static and default types are introduced in java8 for interfaces.
+how to declare a boolean array.
+stream api?
+lamda exp?
+
+
+all the mthods of vector are sync.
+
+data structure is added to java by collections frame work.
+
+HashSet h=new HashSet();//it works based on hash code of an object
+
+
+
+cannot add a object in treeset.--if you try to add it throws ClassCastException.
+as tree set follows ascending order in insertion.
+we cannot add null value in tree set.
+if you want to add object you should use comparator.
