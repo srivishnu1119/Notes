@@ -1,0 +1,1 @@
+ CREATE TABLE Trainee_details(details_id number primary key,trainee_name varchar2(20),module_name varchar2(12),mpt_marks number(20),mtt_marks number(20),assignment_marks number(5),total number(5));
